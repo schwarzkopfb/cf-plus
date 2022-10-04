@@ -1,0 +1,43 @@
+button {
+  outline: none;
+  background: #4285F4;
+  width: 200px;
+  border: 0;
+  border-radius: 4px;
+  padding: 12px 20px;
+  color: #fff;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 500;
+  line-height: inherit;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button[disabled] {
+  background: #ccc;
+  cursor: default;
+}
+
+input {
+  margin: 5px;
+  outline: none;
+  display: block;
+  background: rgba(0, 0, 0, 0.1);
+  width: 200px;
+  border: 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 12px 20px;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 500;
+  line-height: inherit;
+  transition: 0.3s ease;
+}
+
+input:focus {
+  color: rgba(0, 0, 0, 0.4);
+}
