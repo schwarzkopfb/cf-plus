@@ -32,6 +32,8 @@ Config can be passed via environment variables:
 * `CFP_REDIS_PASSWORD`
 * `CFP_SERVER_ACCESS_TOKEN` (optional)
 
+Tested with [Deno Deploy](https://deno.com/deploy)
+
 ## Code
 
 The code has been moved into two separate repos:
