@@ -10,6 +10,7 @@ This project consists of a [Browser Extension](https://github.com/schwarzkopfb/c
 
 It was a weekend side-project to 
 * experiment with [Deno](https://deno.land) + [Redis](https://redis.io),
+* Server-Sent-Events via [oak](https://github.com/oakserver/oak) and [Deno Deploy](https://deno.com/deploy)
 * start exploring [Manifest v3](https://developer.chrome.com/docs/extensions/mv3/intro/) and
 * practice browser extension development in [TypeScript](https://www.typescriptlang.org/).
 
